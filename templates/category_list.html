@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分类列表</title>
+</head>
+<body>
+    <h2>分类列表</h2>
+    <ul>
+        {% for category in categories %}
+            <li><a>{{ category.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
